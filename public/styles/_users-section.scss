@@ -1,0 +1,39 @@
+section#users-section {
+  margin-top: 80px;
+  
+  .add-user {
+    .add-user__img {
+      width: 200px;
+    }
+  }
+
+  .user {
+    width: 250px;
+    padding: 25px 0;
+    margin-bottom: 40px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(#000, 0.12), 0 1px 2px rgba(#000, 0.24);
+
+    .user__img {
+      width: 150px;
+      margin-bottom: 20px;
+      opacity: 0.8;
+    }
+
+    .user__name {
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .user__email {
+      margin-bottom: 15px;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+
+    .btn-danger {
+      background-color: $red;
+    }
+  }
+}

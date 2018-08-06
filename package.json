@@ -1,0 +1,22 @@
+{
+  "name": "userapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./server/app.js",
+  "scripts": {
+    "start": "nodemon ./server/app.js localhost 1234",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:compile": "node-sass --watch --include-path sass ./public/styles/main.scss ./public/styles/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.6"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.2",
+    "nodemon": "^1.18.3"
+  }
+}

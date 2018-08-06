@@ -1,0 +1,25 @@
+<section id="edit-users" ng-controller="EditController" ng-init="getUserInfo()">
+  <form ng-submit="updateUser()">
+    <div class="card-header">Edit Information</div>
+    <div class="card-content">
+      <div class="input-label">
+        <input id="edit-first-name" autofocus="autofocus" type="text" ng-model="user.firstName" required>
+        <label for="edit-first-name">First Name</label>
+        <span class="input-span"></span>
+      </div>
+      <div class="input-label">
+        <input id="edit-last-name" autofocus="autofocus" type="text" ng-model="user.lastName" required>
+        <label for="edit-last-name">Last Name</label>
+        <span class="input-span"></span>
+      </div>
+      <div class="input-label">
+        <input id="email" type="email" ng-model="user.email" required>
+        <label for="edit-email">Email</label>
+        <span class="input-span"></span>
+      </div>
+      <button type="submit" class="btn btn-primary">Update</button>
+      <div class="divider"></div>
+      <a class="home-link" href="/">Go Home</a>
+    </div>
+  </form>
+</section>
